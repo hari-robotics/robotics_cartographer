@@ -1,4 +1,4 @@
-# Docker-based ROS Workspace
+# Docker-based ROS1 Workspace for Robotics Course
 
 ## Overview
 This project provides a Dockerized environment for developing and running ROS1-based applications for the robotics course. It includes a pre-built Docker image that simplifies the setup process and ensures consistency across different machines.
