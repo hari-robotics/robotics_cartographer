@@ -22,6 +22,15 @@ This script pulls the pre-built image from the repository and mounts the `catkin
 
 If you want to use a custom-built Docker image, modify `start.sh` accordingly.
 
+### Connecting to the running Container
+
+```bash
+./connect.sh
+```
+
+This script can be run after `start.sh` to connect to the running container from a new terminal.
+
+
 ### Building a Custom Docker Image
 If you need to customize the Docker image, navigate to the `docker/` folder and run:
 ```bash
