@@ -26,8 +26,7 @@ USER robotics
 WORKDIR /home/robotics
 
 # Source ROS environment for the user
-RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc \
-    echo "source /home/robotics/catkin_ws/devel/setup.bash" >> ~/.bashrc
+RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc && echo "source /home/robotics/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 # Default command
 CMD ["bash"]
