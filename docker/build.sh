@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build  -t smentasti/robotics --push . 
+docker build -t harirobotics/robotics_cartographer --push . 
 

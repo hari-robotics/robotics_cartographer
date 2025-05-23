@@ -1,6 +1,6 @@
 # Specify the container name and image
 $CONTAINER_NAME = "robotics_container"
-$IMAGE_NAME = "smentasti/robotics"
+$IMAGE_NAME = "harirobotics/robotics_cartographer"
 
 # Pull the latest image
 Write-Host "Pulling the latest image: $IMAGE_NAME..."
